@@ -1,10 +1,10 @@
 {
   "name": "codeceptjs-selenium",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bootstrap and Teardown Selenium Standalone Server for CodeceptJS",
   "main": "lib/index.js",
   "scripts": {
-    "prepare": "./node_modules/.bin/selenium-standalone install"
+    "postinstall": "./node_modules/.bin/selenium-standalone install"
   },
   "keywords": [
     "CodeceptJS",
