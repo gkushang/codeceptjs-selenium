@@ -8,7 +8,7 @@
 
 ``` bash
 
-    yarn codeceptjs-selenium -D
+    yarn add codeceptjs-selenium -D
 
 ```
 

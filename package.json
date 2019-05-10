@@ -4,15 +4,13 @@
   "description": "Bootstrap and Teardown Selenium Standalone Server for CodeceptJS",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "./node_modules/.bin/selenium-standalone install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "./node_modules/.bin/selenium-standalone install"
   },
-
   "keywords": [
     "CodeceptJS",
     "CodeceptJS-Selenium",
-    "Selenium"],
-
+    "Selenium"
+  ],
   "author": "Kushang Gajjar <g.kushang@gmail.com>",
   "license": "MIT",
   "dependencies": {
