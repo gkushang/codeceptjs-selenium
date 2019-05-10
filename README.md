@@ -6,7 +6,7 @@
 
 #### Install
 
-```json
+```bash
 
     yarn add codeceptjs-selenium -D
 
@@ -15,7 +15,7 @@
 #### Add to CodeceptJS Config
 
 
-```json
+```bash
     {
         ...
     
