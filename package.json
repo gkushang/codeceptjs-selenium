@@ -1,6 +1,6 @@
 {
   "name": "codeceptjs-selenium",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bootstrap and Teardown Selenium Standalone Server for CodeceptJS",
   "main": "lib/index.js",
   "scripts": {
