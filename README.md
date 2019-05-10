@@ -6,7 +6,7 @@
 
 #### Install
 
-``` bash
+```json
 
     yarn add codeceptjs-selenium -D
 
@@ -14,10 +14,16 @@
 
 #### Add to CodeceptJS Config
 
-```bash
 
-    bootstrap: require('codeceptjs-selenium').bootstrap,
-    teardown: require('codeceptjs-selenium').teardown,
+```json
+    {
+        ...
+    
+        bootstrap: require('codeceptjs-selenium').bootstrap,
+        teardown: require('codeceptjs-selenium').teardown,
+        
+        ...
+    }
     
 ```
 
